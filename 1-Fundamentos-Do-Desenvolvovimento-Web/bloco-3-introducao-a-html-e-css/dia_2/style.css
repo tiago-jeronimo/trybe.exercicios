@@ -1,0 +1,32 @@
+h1{
+    size: 65px;
+    font-family: sans-serif;
+    color: orange;
+   font-style: italic;
+  }
+  ul{
+    background-color: black;
+    color: white;
+  }
+ 
+  p{
+    font-weight:600;
+    font-size:3em;
+  }
+  body{
+    font-size: 16px;
+  }
+  #am{
+    font-style: italic;
+    background-color: yellow;
+    color: black;
+   }
+  #ver{
+    background-color: red;
+    color: white;
+  }
+  #ma{
+    text-decoration: underline;
+    background-color: brown;
+    color: white;
+  }
