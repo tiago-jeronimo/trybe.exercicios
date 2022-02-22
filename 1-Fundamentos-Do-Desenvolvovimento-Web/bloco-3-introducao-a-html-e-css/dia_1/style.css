@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', 'Verdana', 'Arial', sans-serif; 
+    }
+
+   .paragraph5, p, li {
+   color: #475550;
+   font-size: 16px;
+   margin-bottom: 30px;
+   }
+
+   .trybe-green{
+   color: #11a36a;
+   }
+
+   .header{
+    background-image:url("homemSorrindo.jpeg");
+    background-size: cover;
+    height: 600px;
+    background-position: 0px -250px;  
+    padding: 50px 40px;  
+    }
+
+    .header-content{
+        width: 70%;
+        margin-left: 75px;
+    }    
+    
+    .text-header{
+        width: 90%;
+    }
+
+    .text-header p{
+        margin-bottom: 30px;
+    }
+
+   .hero-title{
+   color:#0a7e51;
+   font-size: 45px;
+   line-height:55px;
+   font-weight: 600;
+   }
+
+   .section-title{
+   line-height: 42px;
+   font-weight: 600;
+   font-size: 28px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 60px;
+   }
+
+   .market{
+       padding: 70px;
+       text-align: center;
+   }
+   .trybe-para-todos{
+       width: 60%;
+       margin: auto;
+   }
+
+   .trybe-para-todos p {
+    margin-bottom: 30px;
+}
+   .testimonial-name{
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+   }
+
+   .pictures{
+   border-radius: 50%;
+   width: 120px;
+   height: 120px;;
+   }
+   
+   .button{
+   text-decoration: none;
+   line-height: 15px;
+   background-color: #11a36a;
+   margin:30px auto; 
+   padding: 15px 15px;
+   border-radius: 4px;
+   display: block;
+   font-size: 16px;
+   text-align: center;
+   color: white;
+   width: 400px;
+   transition: 0.5s;
+   }
+  
+
+
+   .button:hover{
+       background:rgba(0, 0, 0, 0.829);
+   }
