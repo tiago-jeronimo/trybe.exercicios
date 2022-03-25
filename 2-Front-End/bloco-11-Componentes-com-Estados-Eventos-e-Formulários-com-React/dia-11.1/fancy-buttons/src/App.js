@@ -1,21 +1,26 @@
 import './App.css';
 import React, { Component } from 'react';
 
-function click(){
-  console.log('clik')
-}
-function click1(){
-  console.log('clik1')
-}function click2(){
-  console.log('clik2')
-}
 class App extends Component {
-  render (){
-  return (
+  constructor(){
+    super()
+    console.log("Componente sendo construido");
+  };
+   click(){
+    console.log('No meio do caminho')
+  };
+   click1(){
+    console.log('Tinha uma pedra')
+  } ;
+  click2(){
+    console.log('Nunca me esquecerei disso')
+  };
+  render () {
+    return (
     <div >
-     <button onClick={click}  >CLIQUE AQUI!</button>
-     <button onClick={click1}>CLIQUE AQUI!</button>
-     <button onClick={click2}>CLIQUE AQUI!</button>
+     <button onClick={this.click}>CLIQUE AQUI!</button>
+     <button onClick={this.click1}>CLIQUE AQUI!</button>
+     <button onClick={this.click2}>CLIQUE AQUI!</button>
     </div>
   );
 }
